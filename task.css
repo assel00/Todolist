@@ -1,0 +1,48 @@
+*{
+box-sizing: border-box;
+margin: 0;
+font-family: 'Fira sans';
+}
+body{
+     background-color: #374151;
+    }
+h1{
+    color: #EEE;
+    padding: 1rem;
+  }
+p{color: #EEE;
+     font-size: 1.25rem;
+ }
+#TaskName{
+    background-color: #111827;
+    padding:0.5rem;   
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: #EEE;
+    font-size: 1.25rem;
+         }
+#main{
+     position: absolute;
+     top: 20%;
+     left: 35%;
+     }
+#TaskName::placeholder{
+     color:#6B7280; 
+                      }
+input, button{
+      appearance:none;
+      border: none;
+      outline:none;
+      background:none; 
+            }
+button{
+      color:#EC4899;
+      font-size: 1.40rem;
+      font-weight: 900;
+      background-image: linear-gradient(to right, #EC4899,#8B5Cf6);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      cursor:pointer;
+      
+}
+
